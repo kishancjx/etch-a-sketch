@@ -2,3 +2,58 @@
     box-sizing: border-box;
 }
 
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main-container{
+
+    display: flex;
+    gap: 60px;
+    margin: 40px auto;
+    
+}
+
+
+.sketchPad{
+    background-color: white;
+    width: 600px;
+    height: 600px ;
+    border: 2px solid black;
+    border-radius: 3px;
+
+}
+
+
+.optionsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.color{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.buttons{
+    height: 30px;
+    width: 50px;
+    background-color:greenyellow;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons:hover{
+    background-color: rgb(133, 219, 3)
+}
