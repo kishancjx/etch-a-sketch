@@ -1,59 +1,63 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  gap: 60px;
+  margin: 40px auto;
+}
+
+.sketchPad {
+  background-color: lightsalmon;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  user-select: none;
+}
+
+.sketchDivs {
+  height: auto;
+  user-select: none;
+  background-color: lightgray;
+  /* border: 1px solid #ccc; */
+  aspect-ratio: 1 / 1;
+  
 }
 
 
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.optionsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.main-container{
-
-    display: flex;
-    gap: 60px;
-    margin: 40px auto;
-    
+.color {
+  width: 50px;
+  height: 50px;
 }
 
-
-.sketchPad{
-    background-color: white;
-    width: 600px;
-    height: 600px ;
-    border: 2px solid black;
-    border-radius: 3px;
-
+.buttons {
+  height: 50px;
+  width: 50px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 5px;
 }
 
-
-.optionsDiv{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.color{
-    width: 40px;
-    height: 40px;
-    background-color: red;
-}
-
-.buttons{
-    height: 30px;
-    width: 50px;
-    background-color:greenyellow;
-    border: none;
-    border-radius: 5px;
-}
-
-.buttons:hover{
-    background-color: rgb(133, 219, 3)
+.buttons:hover {
+  background-color: rgb(133, 219, 3);
 }

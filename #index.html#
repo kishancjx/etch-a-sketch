@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,20 +9,12 @@
   <body>
     <h1>Etch-A-Sketch</h1>
     <div class="main-container">
-      <div draggable="false" class="sketchPad"></div>
-
+      <div class="sketchPad"></div>
+      
       <div class="optionsDiv">
-        <div class="color">
-          <input
-            id="colorPicker"
-            type="color"
-            name="head"
-              value="#e66465"
-	      class="color"
-          />
-        </div>
-        <button id="eraser" class="buttons">Eraser</button>
-        <button id="clear" class="buttons">Clear</button>
+        <div class="color"></div>
+        <button class="buttons">Eraser</button>
+        <button class="buttons">Clear</button>
       </div>
     </div>
     <div class="sliderDiv">GRID SLider I will add Later</div>
